@@ -1,14 +1,14 @@
 /**
  * Arquivo: app.js
- * Descrição: Aula introdutória com o objetivo de destacar os conceitos básicos sobre JavaScript.
- *  Nesse primeiro exemplo estaremos desenvolvendo um 'Hello World.
+ * Descrição: Segunda aula de JavaScript sobre Number.
  * Author: Glaucia Lemos
- * Data: 20/09/2016
+ * Data: 02/10/2016
  */
 
-function greetMe(nome) {
-    //return "Olá, " + nome;
-    alert("Olá " + nome);
-}
+var nota = 10;
 
-greetMe("mundo"); //"Olá, Mundo!"
+nota.toExponential(2); //100
+nota.toFixed(2); //10.00
+nota.toPrecision(1); //1e+1
+nota.toString(); // "10"
+nota.valueOf(); // 10
