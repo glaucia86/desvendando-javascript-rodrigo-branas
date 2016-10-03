@@ -1,14 +1,15 @@
 /**
  * Arquivo: app.js
- * Descrição: Segunda aula de JavaScript sobre Number.
+ * Descrição: Terceira aula de JavaScript sobre String API.
  * Author: Glaucia Lemos
  * Data: 02/10/2016
  */
 
-var nota = 10;
+var nome = 'AgileCode';
 
-nota.toExponential(2); //100
-nota.toFixed(2); //10.00
-nota.toPrecision(1); //1e+1
-nota.toString(); // "10"
-nota.valueOf(); // 10
+nome.charAt(2); //"i"
+nome.charCodeAt(0); //65
+nome.concat("!"); //"AgileCode!"
+nome.indexOf('e'); //4
+nome.replace('Code', '!'); //"Agile!"
+nome.split('e'); //['Agil', 'Cod', ''];
