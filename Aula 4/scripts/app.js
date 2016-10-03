@@ -1,14 +1,12 @@
 /**
  * Arquivo: app.js
- * Descrição: Segunda aula de JavaScript sobre Number.
+ * Descrição: Segunda aula de JavaScript sobre Boolean.
  * Author: Glaucia Lemos
  * Data: 02/10/2016
  */
 
-var nota = 10;
+var isento = true;
+var estudante = false;
 
-nota.toExponential(2); //100
-nota.toFixed(2); //10.00
-nota.toPrecision(1); //1e+1
-nota.toString(); // "10"
-nota.valueOf(); // 10
+inseto.toString(); //true
+estudante.valueOf(); //false
